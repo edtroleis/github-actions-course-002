@@ -3,7 +3,7 @@ on: push,workflow_dispatch
 jobs:
   deploy:
     runs-on: ubuntu-latest
-   	 steps:
+    steps:
     - name: Get code
       uses: actions/checkout@v4
     - name: Install dependencies
